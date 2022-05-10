@@ -210,50 +210,104 @@ h2 {
     text-decoration: none;
 } 
 
-@media screen and (min-width: 768px) and (max-width: 1024px ){
-   
+@media screen and (min-width: 1024px) and (max-width: 1600px ){
+    .container{
+        width: 941px;
+         height: 815px;
+    }
+
+    aside{
+        width: 250px;
+        height: 815px; 
+    }
+
+    .footer{
+        background-image: none;
+    }
+    .texto-footer{
+        font-size: 15px;
+        left: 20px;
+        position: relative;
+    }
+
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px ){
+    .container{
+        width: 941px;
+         height: 815px;
+    }
+    #ingresar-texto{
+        width: 600px;
+    }
+
+    .texto1{
+        left: -274px;
+       
+    }
+    aside{
+        width: 260px;
+        height: 815px; 
+    }
+
+    .footer{
+        background-image: none;
+    }
+    .texto-footer{
+        font-size: 15px;
+        left: 20px;
+        position: relative;
+    }
+
+}
+
+
 
 @media screen and (min-width: 480px) and (max-width: 768px ){
    .container{
-       width: 490px;
-       height: 950px;
+       width: 520px;
+       height: 815px;
+     
    }
 
    #ingresar-texto{
-       width: 345px;
-       left: 69px;
-       height: 650px;
+    width: 355px;
+    left: 69px;
+    height: 523px;
    }
 
    .texto1{
-       left: -178px;
-       top: -622px;
+    left: -177px;
+    bottom: 494px;
+   }
+
+   .vector{
+       width: 20px;
    }
 
    .vector1{
-       top: 750px;
-       left: 75px;
+       top: 625px;
+       left: 85px;
    }
 
    .vector2{
-       left: 105px;
-       top: 75px;
+       left: 113px;
+       top: 625px;
    }
 
    .boton-encriptar{
-       left: 73px;
-       top: 800px;
+       left: 100px;
+       top: 668px;
    }
 
    .boton-desencriptar{
-       left: 268px;
-       top: 800px;
+       left: 276px;
+       top: 668px;
    }
 
    aside{
-       width: 239px;
-       height: 950px; 
+       width: 199px;
+       height: 815px; 
    }
 
    #salida{
@@ -261,92 +315,127 @@ h2 {
    }
 
    .btn-copiar{
-       top: 395px;
+       top: 262px;
    }
 
    .ultimo-text{
-       top: 380px;
+       top: 233px;
    }
 
    .imagen-aside{
-       top: 380px;
+       top: 216px;
+       left: 9px;
    }
-
+   
    .footer{
-       bottom: -395px;
-   }
+    background-image: none;
+}
+.texto-footer{
+    font-size: 15px;
+    left: 20px;
+    position: relative;
 }
 
-@media screen and (max-width: 480px ){
+   
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px ){
 
     .container{
-       background: #000;
-    }
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        height: 181%;
+        background: linear-gradient(#E5E5E5, #6483aa);
+        background-image: radial-gradient(circle at 50% -20.71%, #ffffa1 0, #f5ffa0 6.25%, #e4ffa0 12.5%, #d2ffa1 18.75%, #bdffa3 25%, #a7fda6 31.25%, #8cfaaa 37.5%, #6cf7af 43.75%, #3cf2b5 50%, #00edbc 56.25%, #00e8c6 62.5%, #00e4d0 68.75%, #00dfdc 75%, #00dbe9 81.25%, #00d7f5 87.5%, #00d3ff 93.75%, #00d0ff 100%);    }
 
     aside{
         margin-top: 500px;
         background: #000;
     }
     .boton-encriptar {
-        left: 29px;
+        left: 80px;
         top: 550px;
+        width: 121px;
     }
 
     .boton-desencriptar {
-        bottom: 264px;
+        width: 130px;
         margin-top: -50px;
-        left: 213px;
+        top: 601px;
+        left: 224px;
     }
 
     #salida {
         
-    width: 436%;
-    margin-top: 87px;
-    position: relative;
-    left: -290px;
-    height: 300px;
+        width: 423%;
+        margin-top: 330px;
+        position: relative;
+        left: 16px;
+        height: 374px;
 
     }
 
     .imagen-aside{
-        top: 9px;
-        left: -184px;
+        top: -585px;
+        left: 127px;
     }
     #ingresar-texto {
-        width: 118%;
-        height: 445px;
-        left: 31px;
+        color: #0A3871;
+        padding: 1%;
+        font-size: 15px;
+        resize: none;
+        width: 78%;
+        left: 57px;
+        height: 90%;
+        box-shadow: 5px 5px 5px 5px black;
+        margin: 1%;
+        border: none;
+        outline: none;
+        background: inherit;
     }
    .vector {
-       height: 28px;
+       height: 38px;
    }
 
    .vector1{
-    left: 30px;
-    top: 528px;   }
+    left: 114px;
+    z-index: 1;
+    top: 511px;   }
 
    .vector2{
-    left: 54px;
+    left: 144px;
     font-size: 12px;
-    color: white;
-    top: 531px;
+    color: black;
+    top: 513px;
+    z-index: 1;
    }
 
    .texto1{
-    color: white;
+    color: black;
     position: absolute;
     right: 114px;
-    bottom: 791px;
+    top: 18px;
    }
 
    .btn-copiar{
     position: absolute;
-    height: 50px;
-    top: 820px;
-    left: 167px;
+    width: 158px;
+    height: 40px;
+    top: 1209px;
+    left: 145px;
    }
 
+.texto-footer{
+    font-size: 17px;
+}
   .footer{
-    bottom: -369px;
+    position: relative;
+    bottom: -1238px;
+    left: -88px;
+    background-image: none;
+  }
+  .ultimo-text{
+   display: none;
   }
 }
